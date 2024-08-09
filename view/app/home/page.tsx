@@ -2,7 +2,7 @@
 import Hero from "./hero"
 import SubHero from "./SubHero"
 
-const page = () => {
+const Home = () => {
     return (
         <div>
             <Hero />
@@ -11,4 +11,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Home
