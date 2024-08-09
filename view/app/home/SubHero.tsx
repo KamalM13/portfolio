@@ -10,7 +10,7 @@ const SubHero = () => {
                     Hello! I’m Kamal Mohamed, a passionate web developer with a strong background
                     in computer science and a keen interest in creating intuitive and scalable web applications.
                     I am currently pursuing a Bachelor of Arts in Computer Science at October University
-                    for Modern Sciences and Arts, where I've maintained a 3.61 GPA.
+                    for Modern Sciences and Arts, where I`ve maintained a 3.61 GPA.
                 </p>
             </div>
             <div className='flex justify-center gap-x-40'>
