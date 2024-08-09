@@ -7,10 +7,10 @@ const SubHero = () => {
             <h1 className='text-4xl text-white font-semibold text-center pt-10'>About me</h1>
             <div className='flex justify-center p-4'>
                 <p className='text-white text-center max-w-[600px] text-sm font-montessart font-extralight tracking-wide'>
-                    Hello! I’m Kamal Mohamed, a passionate web developer with a strong background
+                    Hello! I&apos;m Kamal Mohamed, a passionate web developer with a strong background
                     in computer science and a keen interest in creating intuitive and scalable web applications.
                     I am currently pursuing a Bachelor of Arts in Computer Science at October University
-                    for Modern Sciences and Arts, where I`ve maintained a 3.61 GPA.
+                    for Modern Sciences and Arts, where I&apos;ve maintained a 3.61 GPA.
                 </p>
             </div>
             <div className='flex justify-center gap-x-40'>
