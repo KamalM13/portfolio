@@ -1,10 +1,10 @@
 import React from 'react'
 
-const SubHero = () => {
+const About = () => {
     return (
 
-        <div className='bg-[#1F1F1F] w-full h-[500px] py-10'>
-            <h1 className='text-4xl text-white font-semibold text-center pt-10'>About me</h1>
+        <div className='bg-[#1F1F1F] w-full h-[400px] py-10'>
+            <h1 className='text-4xl text-white font-semibold text-center pt-10 tracking-wider'>About me</h1>
             <div className='flex justify-center p-4'>
                 <p className='text-white text-center max-w-[600px] text-sm font-montessart font-extralight tracking-wide'>
                     Hello! I&apos;m Kamal Mohamed, a passionate web developer with a strong background
@@ -19,7 +19,7 @@ const SubHero = () => {
                     <p className='text-white text-center'>Projects Completed</p>
                 </div>
                 <div>
-                    <h1 className='text-6xl text-[#FFD4D0] font-semibold text-center pt-10'>5</h1>
+                    <h1 className='text-6xl text-[#FFD4D0] font-semibold text-center pt-10'>1</h1>
                     <p className='text-white text-center'>Years of Experience</p>
                 </div>
                 <div>
@@ -32,4 +32,4 @@ const SubHero = () => {
     )
 }
 
-export default SubHero
+export default About

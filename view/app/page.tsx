@@ -1,10 +1,10 @@
-import Home from "./home/page"
+import Home from "./home/Home"
 
 
 const page = () => {
   return (
     <div>
-      <Home/>
+      <Home />
     </div>
   )
 }
