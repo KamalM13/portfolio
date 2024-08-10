@@ -59,15 +59,20 @@ const Contact = () => {
 
 
     return (
-        <div className='h-[500px] w-full bg-[#FFD4D0] flex items-center justify-center gap-x-40'>
-            <div className='space-y-5'>
-                <h1 className='text-4xl font-bold tracking-wider'>Get In Touch</h1>
-                <p className='max-w-[350px]'>Have a question or a project in mind? I&apos;d love to hear from you. Let&apos;s chat and make something amazing together.</p>
+        <div className='h-auto lg:h-[500px] w-full bg-[#FFD4D0] flex flex-col lg:flex-row items-center justify-center gap-x-0 lg:gap-x-40 p-6 lg:p-0'>
+            <div className='space-y-5 text-center lg:text-left mb-6 lg:mb-0'>
+                <h1 className='text-3xl lg:text-4xl font-bold tracking-wider'>Get In Touch</h1>
+                <p className='max-w-[90%] lg:max-w-[350px] mx-auto lg:mx-0'>
+                    Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.
+                </p>
             </div>
-            <div className='w-[400px]'>
-                <form onSubmit={handleSubmit} className='flex flex-col items-start gap-y-3'>
+            <div className='w-full lg:w-[400px]'>
+                <form onSubmit={handleSubmit} className='flex flex-col items-center lg:items-start gap-y-3'>
                     <div className='w-full space-y-1'>
-                        <input type="text" placeholder='First Name' className='p-1 rounded-sm w-full'
+                        <input
+                            type="text"
+                            placeholder='First Name'
+                            className='p-1 rounded-sm w-full'
                             value={formData.firstName}
                             onChange={handleInputChange}
                             name='firstName'
@@ -75,7 +80,10 @@ const Contact = () => {
                         {errors.firstName && <p className='text-red-500 text-sm'>{errors.firstName}</p>}
                     </div>
                     <div className='w-full space-y-1'>
-                        <input type="email" placeholder='Email' className='p-1 rounded-sm w-full'
+                        <input
+                            type="email"
+                            placeholder='Email'
+                            className='p-1 rounded-sm w-full'
                             value={formData.email}
                             onChange={handleInputChange}
                             name='email'
@@ -83,7 +91,10 @@ const Contact = () => {
                         {errors.email && <p className='text-red-500 text-sm'>{errors.email}</p>}
                     </div>
                     <div className='w-full space-y-1'>
-                        <input type="number" placeholder='Phone Number' className='p-1 rounded-sm w-full'
+                        <input
+                            type="number"
+                            placeholder='Phone Number'
+                            className='p-1 rounded-sm w-full'
                             value={formData.phoneNumber}
                             onChange={handleInputChange}
                             name='phoneNumber'
@@ -91,18 +102,29 @@ const Contact = () => {
                         {errors.phoneNumber && <p className='text-red-500 text-sm'>{errors.phoneNumber}</p>}
                     </div>
                     <div className='w-full space-y-1'>
-                    <textarea placeholder='Your Message' name='message' value={formData.message} onChange={handleInputChange} className='p-1 rounded-sm w-full h-[200px]'></textarea>
+                        <textarea
+                            placeholder='Your Message'
+                            name='message'
+                            value={formData.message}
+                            onChange={handleInputChange}
+                            className='p-1 rounded-sm w-full h-[200px]'
+                        ></textarea>
                         {errors.message && <p className='text-red-500 text-sm'>{errors.message}</p>}
                     </div>
-                    <button type='submit'
+                    <button
+                        type='submit'
                         disabled={disabled}
                         className={`bg-[#FF6464] text-white p-1 px-6 rounded-sm font-semibold text-sm
-                        ${disabled ? 'bg-gray-400' : 'hover:bg-[#FF6464] hover:shadow-lg transition-all'}
-                        `}>Send Message</button>
+        ${disabled ? 'bg-gray-400' : 'hover:bg-[#FF6464] hover:shadow-lg transition-all'}
+        `}
+                    >
+                        Send Message
+                    </button>
                     {disabled && <p className='text-green-500 text-sm'>{submit}</p>}
                 </form>
             </div>
         </div>
+
     )
 }
 
