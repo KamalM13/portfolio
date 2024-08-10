@@ -63,7 +63,7 @@ const Contact = () => {
             <div className='space-y-5 text-center lg:text-left mb-6 lg:mb-0'>
                 <h1 className='text-3xl lg:text-4xl font-bold tracking-wider'>Get In Touch</h1>
                 <p className='max-w-[90%] lg:max-w-[350px] mx-auto lg:mx-0'>
-                    Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.
+                    Have a question or a project in mind? I&apos;d love to hear from you. Let&apos;s chat and make something amazing together.
                 </p>
             </div>
             <div className='w-full lg:w-[400px]'>
