@@ -13,7 +13,7 @@ const Projects = () => {
             My Portfolio
           </h1>
           <p className='font-extralight max-w-[90%] lg:max-w-[720px]'>
-            Explore my development services, from responsive design and interactive front-end development to scalable backend solutions. Let's build robust and innovative web applications together.
+            Explore my development services, from responsive design and interactive front-end development to scalable backend solutions. Let&apos;s build robust and innovative web applications together.
           </p>
         </div>
         <div className='absolute top-[250px] lg:top-[250px] grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-10 w-full px-4'>
