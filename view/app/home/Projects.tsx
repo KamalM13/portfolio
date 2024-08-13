@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className='relative h-[1750px] lg:h-[800px]'>
       <div className='bg-[#FFD4D0] w-full h-[300px] flex flex-col items-center justify-center  lg:p-10 leading-relaxed'>
-        <div className='flex flex-col text-center'>
+        <div className='flex flex-col text-center items-center'>
           <h1 className='text-2xl lg:text-4xl font-bold pb-3 lg:pb-5 tracking-wider'>
             My Portfolio
           </h1>

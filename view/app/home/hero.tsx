@@ -6,10 +6,10 @@ const Hero = () => {
     return (
         <div className='h-screen w-full flex flex-col-reverse md:flex-row items-center justify-center md:gap-x-40 gap-y-10 md:gap-y-0 bg-[#fcebeb] '>
             <div className="space-y-5 text-center md:text-left">
-                <h1 className='text-3xl md:text-5xl font-bold leading-tight'>
-                    Hello, I&apos;m <span className="bg-[#FF6464] text-white p-1 rounded-md">Kamal</span><br />
-                    A Web Developer
+                <h1 className='text-3xl md:text-5xl font-bold leading-loose tracking-wider'>
+                    Hello, I&apos;m <span className="bg-[#FF6464] text-white p-1 rounded-md">Kamal</span>
                 </h1>
+                <p className="text-3xl md:text-5xl font-bold leading-loose tracking-wider">A Web Developer</p>
                 <p className='text-lg md:text-xl max-w-[400px] mx-auto md:mx-0'>
                     A passionate developer specializing in creating seamless, user-friendly web applications that bring ideas to life.
                 </p>
